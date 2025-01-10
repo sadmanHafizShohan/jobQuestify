@@ -1,5 +1,6 @@
 import './App.css'
 import Banner from './components/Banner'
+import Footer from './components/Footer';
 import Navbar from './components/Navbar'
 import { useState } from 'react';
 
@@ -37,6 +38,7 @@ function App() {
         </div>
       )}
       <Banner />
+      
     </>
   );
 }

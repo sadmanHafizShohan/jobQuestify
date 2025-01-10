@@ -8,11 +8,12 @@ export default {
   theme: {
     colors: {
       transparent: 'transparent',
-      color1: '#A7BDD9',
-      color2: '#D5E7F2',
-      color3: '#024059',
-      color4: '#011F26',
-      color5: '#F2B66D'
+      color1: '#BF1120',
+      color2: '#A60A27',
+      color3: '#F2F2F2',
+      color4: '#A6A6A6',
+      color5: '#0D0D0D',
+      white: '#FFFF',
       },
     extend: {},
   },
