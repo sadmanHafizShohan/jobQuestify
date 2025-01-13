@@ -38,7 +38,7 @@ function App() {
         </div>
       )}
       <Banner />
-      
+      <Footer/>
     </>
   );
 }
