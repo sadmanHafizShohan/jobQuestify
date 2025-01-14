@@ -23,37 +23,46 @@ const Navbar = () => {
                         </div>
                         <ul
                             tabIndex={0}
-                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                            <li><a>Item 1</a></li>
+                            className="menu menu-sm dropdown-content  rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a  className='hover:text-colorOrange duration-300'>Services</a></li>
                             <li>
-                                <a>Parent</a>
+                                <a>Job Category</a>
                                 <ul className="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
+                                <li><a className='hover:text-colorOrange'>Construction Worker</a></li>
+                                    <li><a className='hover:text-colorOrange duration-300'>Cleaner</a></li>
+                                    <li><a className='hover:text-colorOrange duration-300'>Agriculture</a></li>
+                                    <li><a className='hover:text-colorOrange duration-300'>Labour</a></li>
+                                    <li><a className='hover:text-colorOrange duration-300'>Cleaner</a></li>
+                                    <li><a className='hover:text-colorOrange duration-300'>Driver</a></li>
                                 </ul>
                             </li>
-                            <li><a>Item 3</a></li>
+                            <li><a className='hover:text-colorOrange'>Contact</a></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl"><img className='w-20 h-10' src={logo} alt="" /></a>
+                    <a className="btn btn-ghost text-sm sm:text-xl font-bold"><h1>Job<span className='text-colorOrange'>Questify</span> </h1></a>
+                    {/* <img className='w-32 h-32' src={logo} alt="" /> */}
                 </div>
-                <div className="navbar-center hidden lg:flex">
+                <div className="navbar-center hidden lg:flex">  
                     <ul className="menu menu-horizontal px-1">
-                        <li><a>Item 1</a></li>
+                        <li><a className='hover:text-colorOrange duration-300'>Services</a></li> 
                         <li>
                             <details>
-                                <summary>Parent</summary>
+                                <summary className='hover:text-colorOrange duration-300'>Job Category</summary>
                                 <ul className="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
+                                    <li><a className='hover:text-colorOrange duration-300'>Construction Worker</a></li>
+                                    <li><a className='hover:text-colorOrange duration-300'>Cleaner</a></li>
+                                    <li><a className='hover:text-colorOrange duration-300'>Agriculture</a></li>
+                                    <li><a className='hover:text-colorOrange duration-300'>Labour</a></li>
+                                    <li><a className='hover:text-colorOrange duration-300'>Cleaner</a></li>
+                                    <li><a className='hover:text-colorOrange duration-300'>Driver</a></li>
                                 </ul>
                             </details>
                         </li>
-                        <li><a>Item 3</a></li>
+                        <li><a className='hover:text-colorOrange duration-300'>Contact</a></li>
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="font-bold cursor-pointer text-color3">Submit Application</a>
+                    <a href='/submitApplication'  className="btn btn-ghost font-bold cursor-pointer text-colorOrange text-sm sm:text-lg hover:text-color3 duration-300">Submit Application</a>
                 </div>
             </div>
         </div>
