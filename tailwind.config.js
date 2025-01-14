@@ -13,6 +13,7 @@ export default {
       color3: '#F2F2F2',
       color4: '#A6A6A6',
       color5: '#0D0D0D',
+      colorOrange: '#F7931E',
       white: '#FFFF',
       },
     extend: {},

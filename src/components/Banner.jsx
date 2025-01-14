@@ -15,7 +15,7 @@ const Banner = () => {
                     <div className="max-w-md">
                         <h1 className="mb-5 text-4xl text-nowrap font-bold">Your career starts here</h1>
                         <p className="mb-5">
-                            Search <strong>104,824</strong> job postings in Europe.
+                            Search <strong className='font-bold'>104,824</strong> job postings in Europe.
                         </p>
                         <div className='my-2'>
                             <label className="input bg-white rounded-full flex items-center gap-2">
@@ -24,11 +24,11 @@ const Banner = () => {
                             </label></div>
                             <div className='text-black text-nowrap flex align-middle justify-center text-center gap-2'>
                                 <h1 className='font-bold'> Trending Jobs: </h1>
-                                <p> Construction Worker | </p>
-                                <p> Cleaner | </p>
-                                <p> Agriculture | </p>
-                                <p> Labour | </p>
-                                <p> Driver </p>
+                                <p className='cursor-pointer hover:text-colorOrange duration-300'> Construction Worker</p> |
+                                <p className='cursor-pointer hover:text-colorOrange duration-300'> Cleaner </p> |
+                                <p className='cursor-pointer hover:text-colorOrange duration-300'> Agriculture</p> |
+                                <p className='cursor-pointer hover:text-colorOrange duration-300'> Labour</p> |
+                                <p className='cursor-pointer hover:text-colorOrange duration-300'> Driver</p> 
                             </div>
                     </div>
                 </div>
